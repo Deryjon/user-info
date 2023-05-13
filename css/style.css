@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+body {
+	background: #00c6ff ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+	
+}
+li {
+  list-style: none;
+	cursor: pointer;
+}
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.container .main .data {
+  display: flex;
+  font-size: 20px;
+  padding: 10px;
+	border-radius: 15px;
+}
+.container .main .data .id {
+  width: 156px;
+}
+.container .main .data .name {
+  width: 521px;
+}
+.container .main .data {
+  background: #f1f1f1;
+}
+.container .data-back div {
+  display: flex;
+  padding: 5px;
+	transition: 0.3s;
+	border-radius: 15px;
+	cursor: pointer;
+}
+.container .data-back div:hover {
+background: #0488ac;
+}
+.container .data-back div .id {
+  width: 155px;
+}
+.container .data-back div .name {
+  width: 520px;
+}
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pagination li {
+  margin-right: 10px;
+	
+}
+
+.pagination li a {
+  color: #333;
+  text-decoration: none;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+.pagination li a:hover{
+	background: #c2c2c2;
+}
+.pagination li.active a {
+  background-color: #c2c2c2;
+  color: #232323;
+}
